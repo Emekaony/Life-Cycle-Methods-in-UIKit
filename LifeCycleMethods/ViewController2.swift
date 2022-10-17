@@ -11,6 +11,8 @@ class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // title = "Log In"
+        // view.backgroundColor = .link
         print("V2 viewDidLoad() called")
     }
     

@@ -11,7 +11,11 @@ class ViewController1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         print("V1 viewDidLoad() called")
+        // ths is how you print the name of a function
+        print("Name of the function is: \(#function)")
+        print(#function)
     }
     
     @IBAction func navPressed(_ sender: UIButton) {
@@ -20,12 +24,12 @@ class ViewController1: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         print("V1 viewWillAppear() called.")
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
         print("V1 viewDidAppear() called.")
     }
     

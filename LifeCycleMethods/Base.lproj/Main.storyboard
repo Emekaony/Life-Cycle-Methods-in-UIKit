@@ -33,7 +33,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="QA0-uY-f5m" kind="presentation" identifier="viewOneToTwo" id="9oA-VC-2BH"/>
+                        <segue destination="QA0-uY-f5m" kind="presentation" identifier="viewOneToTwo" modalPresentationStyle="fullScreen" id="9oA-VC-2BH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -45,7 +45,7 @@
             <objects>
                 <viewController id="QA0-uY-f5m" customClass="ViewController2" customModule="LifeCycleMethods" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xwR-YJ-lXI">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhh-zp-661">
@@ -65,6 +65,7 @@
                         <viewLayoutGuide key="safeArea" id="gFo-2V-pEH"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nid-yG-B36"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4NZ-O9-KlK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
